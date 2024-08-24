@@ -1,0 +1,46 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: none;
+}
+.directory {
+    margin: 3rem 2rem;
+    border: 2px lightblue solid;
+    padding: 2rem;
+    width: 50%;
+   
+}
+.circular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: scroll;
+max-height: 20rem;
+}
+.filters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+    max-height: 20%;
+}
+.filters div div{
+    margin-left: 2rem;
+}
+.portal {
+    width: 100%;
+    margin: 3rem 1rem;
+    padding: 1rem;
+}
+.searchbar {
+    max-width: 100%;
+    border: 3px navy solid;
+    border-radius: 6px;
+}
+ input {
+    width: 80%;
+    padding: 1rem;
+    margin-left: 1rem;
+
+}
